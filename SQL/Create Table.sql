@@ -18,7 +18,8 @@ COPY customers (
     estimatedsalary,
     exited
 )
-FROM 'C:/Users/PAVAN/Desktop/PostgrelSQL/Clean_and_merged_Bank_churn.csv'
+-- Replace with the full path to Data/Clean_and_merged_Bank_churn.csv on your machine
+FROM '/path/to/Data/Clean_and_merged_Bank_churn.csv'
 WITH (
     FORMAT csv,
     HEADER true,
